@@ -1,3 +1,13 @@
+## Sep 23rd, 2023
+
+Member: Junital
+
+Past: 学习Prompt Engeering中的Inferring一章，了解了怎么进行评论的推断、主题归纳。添加原来的异常检测代码到项目中。
+
+Plan: 继续学习[Prompt Engeering](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)，开始尝试处理PubPeer的评论，尝试从多角度进行评价。
+
+Difficulty: 评论之间的“互指”、回复仍然是比较难处理的部分。
+
 ## Sep 22nd, 2023
 
 Member: Junital
