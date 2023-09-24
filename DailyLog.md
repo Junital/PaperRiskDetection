@@ -1,3 +1,9 @@
+## Sep 24th, 2023
+
+Member: Junital
+
+Past: 事情有点多，没有完成相关任务。
+
 ## Sep 23rd, 2023
 
 Member: Junital
