@@ -1,3 +1,13 @@
+## Sep 29th, 2023
+
+Member: Junital
+
+Past: 学习Prompt Engeering中的Transforming一章，初步对评论进行了GPT问答，目前设定是两个问题。
+
+Plan: 开始尝试更多的评论，争取能把最后的Prompt给呈现出来。
+
+Difficulty: 
+
 ## Sep 24th, 2023
 
 Member: Junital
