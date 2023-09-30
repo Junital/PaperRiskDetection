@@ -1,3 +1,29 @@
+## Sep 30th, 2023
+
+Member: Junital
+
+Past: 初步形成了一个思路，先用GPT根据评论回答信息，再让它总结一下自己刚刚的回答，便于之后的信息收集。
+
+<div align='center'>
+
+<img src=./fig/Snipaste_2023-09-30_15-41-34.jpg width=100%/>
+
+</div>
+
+另外，自己构思了一下初步的框架（之后应该需要再加一点元素）。
+
+<div align='center'>
+
+<img src="./fig/Drawing 2023-09-30 15.45.43.excalidraw.png" width=100%/>
+
+</div>
+
+Plan：现在一方面因为学习了高级统计方法，想重新在检验所有变量的相关性上进行科学的研究；另一方面，开始统计目前这些评论的长度，如果评论太长就得继续创新一下处理方法了。
+
+- 关于评论长度那一块，想画一张直方图出来看一下评论的分布，这样可以知道具体的处理方法。
+
+- 想用线性判别的方法来判断所有变量的相关性。
+
 ## Sep 29th, 2023
 
 Member: Junital
@@ -6,7 +32,7 @@ Past: 学习Prompt Engeering中的Transforming一章，初步对评论进行了G
 
 Plan: 开始尝试更多的评论，争取能把最后的Prompt给呈现出来。
 
-Difficulty: 
+Difficulty: 希望可以有一些创新。
 
 ## Sep 24th, 2023
 
