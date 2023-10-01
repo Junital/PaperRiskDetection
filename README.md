@@ -3,11 +3,13 @@
 ## 开发进度
 
 - [ ] 学习Prompt工程
-{% progress 50 green 50% %}
+<progress id="file" max="100" value="80">80%</progress>
+
 - [ ] 梳理系统模型框架
-{% progress 70 green 70% %}
+<progress id="file2" max="100" value="70">70%</progress>
+
 - [ ] 相关性验证
-{% progress 0 green 0% %}
+<progress id="file3" max="100" value="0">0%</progress>
 
 ## Sep 30th, 2023
 
