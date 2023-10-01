@@ -11,6 +11,22 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Oct 1st, 2023
+
+Member: Junital
+
+Past: 我尝试对所有评论进行长度统计，结果出乎我的预料。如下图所示，虽然大多数的评论都处在比较安全的Token长度内，但是还是有少部分评论会出现超过长度的现象。长度大于5000的评论有1386条，长度大于16000的评论有125条，因为评论本身就具有无限递增的情况，因此我还是觉得需要想办法对评论进行一步步压缩。
+
+<div align='center'>
+
+<img src=./fig/length_of_reviews.png width=80%/>
+
+</div>
+
+Plan: 探索一下怎么既保证信息上下文不会丢失，并且整个评论的token可以被压缩（因为事实上有用的信息量不是很多）
+
+Difficulty: 如果成功了，最好用一个名字来概括这个方法。
+
 ## Sep 30th, 2023
 
 Member: Junital
