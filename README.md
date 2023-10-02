@@ -11,6 +11,35 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Oct 2nd, 2023
+
+Member: Junital
+
+Past: 尝试使用下面的算法对评论进行处理，
+
+```python
+previous_context = None
+
+for sentence in sentences:
+    previous_context = summary_with_previous_context(previous_context)
+```
+
+<div align='center'>
+
+<img src=./fig/Snipaste_2023-10-02_18-39-57.jpg width=80%/>
+
+</div>
+
+我认为把这个归纳方法叫做“滚轮总结”较为合适，之后由于不够完善，需要
+
+Plan：目前还需要提升的地方
+
+- 有些评论是没有有效信息的，那些得通过LLM帮助过滤一下。
+
+- 需要把所有和LLM相关的函数进行包装，方便之后的可持续开发。
+
+Difficulty: 目前认为这个成本太高了，问了LLM太多次问题了，可以再加入一些思路进去。
+
 ## Oct 1st, 2023
 
 Member: Junital
