@@ -120,3 +120,25 @@
 	- 转换语言
 	- 转换语气
 	- 数据格式转换
+
+- # 补充型Prompt
+	- 自动生成回复邮件
+		-
+		  ```python
+		  prompt = f"""
+		  You are a customer service AI assistant.
+		  Your task is to send an email reply to a valued customer.
+		  Given the customer email delimited by ```, \
+		  Generate a reply to thank the customer for their review.
+		  If the sentiment is positive or neutral, thank them for \
+		  their review.
+		  If the sentiment is negative, apologize and suggest that \
+		  they can reach out to customer service. 
+		  Make sure to use specific details from the review.
+		  Write in a concise and professional tone.
+		  Sign the email as `AI customer agent`.
+		  Customer review: ```{review}```
+		  Review sentiment: {sentiment}
+		  """
+		  ```
+	- Temperature: 值越高，就越有概率接收一些低概率的单词，从而增加了灵活性，会更有创造力。

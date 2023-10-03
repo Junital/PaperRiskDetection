@@ -25,7 +25,7 @@ Difficulty: 最后的整体模型尽可能要用到多方面信息，最好可�
 
 Member: Junital
 
-Past: 尝试使用下面的算法对评论进行处理，
+Past: 尝试使用下面的算法对评论进行处理：
 
 ```python
 previous_context = None
@@ -40,7 +40,7 @@ for sentence in sentences:
 
 </div>
 
-我认为把这个归纳方法叫做“滚轮总结”较为合适，之后由于不够完善，需要
+我认为把这个归纳方法叫做“滚轮总结”较为合适，之后由于不够完善，需要再改改。
 
 Plan：目前还需要提升的地方
 
