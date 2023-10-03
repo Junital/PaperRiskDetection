@@ -3,13 +3,23 @@
 ## 开发进度
 
 - [ ] 学习Prompt工程
-<progress id="file" max="100" value="80">80%</progress>
+<progress id="file" max="100" value="87">87%</progress>
 
 - [ ] 梳理系统模型框架
 <progress id="file2" max="100" value="70">70%</progress>
 
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
+
+## Oct 3rd, 2023
+
+Member: Junital
+
+Past：继续学习Prompt工程，更新[笔记](/learn/learn_prompt_engineering/Pompt%20Engineering.md)。
+
+Plan: 酝酿一下更新“滚轮总结”算法，平衡问答次数和信息压缩。另外，自己想到可以用盒子图来描述所有变量的相关性。
+
+Difficulty: 最后的整体模型尽可能要用到多方面信息，最好可以梳理出一套框架，供工业评论风险检测使用。
 
 ## Oct 2nd, 2023
 
@@ -21,7 +31,7 @@ Past: 尝试使用下面的算法对评论进行处理，
 previous_context = None
 
 for sentence in sentences:
-    previous_context = summary_with_previous_context(previous_context)
+    previous_context = summary_with_previous_context(previous_context, sentence)
 ```
 
 <div align='center'>
