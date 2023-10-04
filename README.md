@@ -11,6 +11,39 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Oct 4th, 2023
+
+Member: Junital
+
+Past: 重新规划了一下[滚轮总结（Rolling Summary）算法](/algorithm/rolling_summary.ipynb)，伪代码如下：
+
+```python
+Roll = None
+PC = None
+for sentence in sentences:
+    if(|Roll| + |sentence| > MAX_TOKEN or sentence = last_sentence):
+        if(|Roll| + |sentence| <= MAX_TOKEN):
+            Roll += sentence
+        PC = summary_with_PC(PC, Question)
+        Roll = sentence
+    else:
+        Roll += sentence
+```
+
+为了保守起见，我先选一个长度大于16000的评论做一下测试，看一下最后总结完之后长度是多少。
+
+<div align='center'>
+
+<img src=./fig/Snipaste_2023-10-04_21-10-43.jpg width=80%/>
+
+</div>
+
+可以看出来还是整个答案还是很长的。
+
+Plan: 现在要么就是进行二重滚轮总结，要么就在Prompt中说要压缩回答的长度。
+
+Difficulty: 还是要注意这个Prompt的使用次数，尽量不能太多，不然成本会很高。
+
 ## Oct 3rd, 2023
 
 Member: Junital
