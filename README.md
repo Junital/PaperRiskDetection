@@ -3,13 +3,23 @@
 ## 开发进度
 
 - [ ] 学习Prompt工程
-<progress id="file" max="100" value="87">87%</progress>
+<progress id="file" max="100" value="93">93%</progress>
 
 - [ ] 梳理系统模型框架
 <progress id="file2" max="100" value="70">70%</progress>
 
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
+
+## Oct 6th, 2023
+
+Member: Junital
+
+Past: 把Prompt工程中的聊天机器人一节学完，更新[笔记](./learn/learn_prompt_engineering/Pompt%20Engineering.md)
+
+Plan: 下一步想先把箱形图画了，直观看一下每个变量的相关性，然后考虑要不要线性判别分析。
+
+Difficulty: 注意图片的风格要与上次的那个评论长度统计的图一致。然后需要考虑一下最后的整个模型框架了，感觉异常检测+LLM光是分析评论也很单薄（这里提出一个小小的想法：做一个数据库与LLM结合的系统，让LLM有查数据库的功能，从而可以根据一些历史信息做出一些更加准确的判断）
 
 ## Oct 5th, 2023
 
