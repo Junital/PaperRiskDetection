@@ -2,14 +2,22 @@
 
 ## 开发进度
 
-- [ ] 学习Prompt工程
-<progress id="file" max="100" value="93">93%</progress>
+- [x] 学习Prompt工程
+<progress id="file" max="100" value="100">100%</progress>
 
 - [ ] 梳理系统模型框架
 <progress id="file2" max="100" value="70">70%</progress>
 
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
+
+## Oct 7th, 2023
+
+Member: Junital
+
+Past: 已全部学完Prompt Engineering，下来的骨头就比较难啃了。涉及到比较系统的代码和调试。
+
+[箱形图](./draw/variable_box_plot.ipynb)报错了，明天继续研究一下。
 
 ## Oct 6th, 2023
 
