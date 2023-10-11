@@ -11,6 +11,24 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Oct 11th, 2023
+
+Member: Junital
+
+Past: 停一天，先把学业任务完成。
+
+## Oct 10th, 2023
+
+Member: Junital
+
+Past: 停一天，先把学业任务完成。
+
+## Oct 8th, 2023
+
+Member: Junital
+
+Past: 停一天，先把学业任务完成。
+
 ## Oct 7th, 2023
 
 Member: Junital
