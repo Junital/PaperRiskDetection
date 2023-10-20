@@ -11,6 +11,24 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Oct 20th, 2023
+
+Member: Junital
+
+Past: 临近周末，终于可以做一天了。赶紧把这个箱线图画出来了。
+
+<div align='center'>
+
+<img src=./fig/boxplot_relativity.png width=80%/>
+
+</div>
+
+从图上来看和这个撤销论文相关的好像只有撤销词reword是有关的，其余的结果都不太好，从做实验的角度来说，应该再加两到三个变量用作异常检测那块才是比较合理的。
+
+Plan：打算开始从评论中找一些新的变量，比如评论的长度，并且看一下那些没有评论的论文有没有明显的特征。（还可以聚类）
+
+Difficulty：咱们的时间有限，尽可能别重新爬虫，最好利用已有的数据创造新的变量，其实现在的文本是够的。
+
 ## Oct 14th, 2023
 
 Member: Junital
