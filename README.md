@@ -11,6 +11,27 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Oct 22nd, 2023
+
+Member: Junital
+
+Past: 今天找了几个变量：
+
+1. 评论的长度
+<div align='center'>
+
+<img src=./fig/comment_len.png width=80%/>
+
+</div>
+
+可以看出来是相关的，撤销论文的评论平均长度很高。
+
+2. 对期刊进行embedding，再进行聚类试试
+
+Plan：继续完成embedding和聚类
+
+Difficulty：Embedding出来的结果会根据字符串的token数量都有区别，怎么把长度不一样的变量进行聚类呢？
+
 ## Oct 20th, 2023
 
 Member: Junital
