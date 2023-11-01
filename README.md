@@ -11,6 +11,14 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Oct 23rd, 2023
+
+Member: Junital
+
+Past: 今天找到了一个可以提取特征的[预训练模型](https://huggingface.co/intfloat/multilingual-e5-large)，不过目前跑不起来，之后我在服务器上试试。
+
+跑起来之后再做一下聚类，将其转化为定性变量。
+
 ## Oct 22nd, 2023
 
 Member: Junital
