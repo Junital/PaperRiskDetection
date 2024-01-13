@@ -66,47 +66,48 @@ glm_repa <- glm(
     data = train_data, family = "binomial"
 )
 
-# repa_data_20231109 <- data.frame(
-#     is_retracted = new_data$is_retracted,
-#     published_time = new_data$st_published_time,
-#     total_comment = new_data$st_total_comment,
-#     author_active = new_data$st_author_active,
-#     comment_len = new_data$st_comment_len,
-#     reword = new_data$st_reword,
-#     squ_published_time = (new_data$published_time)^2,
-#     squ_total_comment = (new_data$total_comment)^2,
-#     squ_author_active = (new_data$author_active)^2,
-#     squ_comment_len = (new_data$comment_len)^2,
-#     squ_reword = (new_data$reword)^2,
-#     sqrt_published_time = sqrt(new_data$published_time),
-#     sqrt_total_comment = sqrt(new_data$total_comment),
-#     sqrt_author_active = sqrt(new_data$author_active),
-#     sqrt_comment_len = sqrt(new_data$comment_len),
-#     sqrt_reword = sqrt(new_data$reword)
-# )
+repa_data_20231109 <- data.frame(
+    is_retracted = new_data$is_retracted,
+    published_time = new_data$st_published_time,
+    total_comment = new_data$st_total_comment,
+    author_active = new_data$st_author_active,
+    comment_len = new_data$st_comment_len,
+    reword = new_data$st_reword,
+    squ_published_time = (new_data$published_time)^2,
+    squ_total_comment = (new_data$total_comment)^2,
+    squ_author_active = (new_data$author_active)^2,
+    squ_comment_len = (new_data$comment_len)^2,
+    squ_reword = (new_data$reword)^2,
+    sqrt_published_time = sqrt(new_data$published_time),
+    sqrt_total_comment = sqrt(new_data$total_comment),
+    sqrt_author_active = sqrt(new_data$author_active),
+    sqrt_comment_len = sqrt(new_data$comment_len),
+    sqrt_reword = sqrt(new_data$reword),
+    comments = new_data$rawcommentstext
+)
 
-# write.table(repa_data_20231109,
-#     file = "data/repa_data_20231109.csv", sep = ",",
-#     col.names = TRUE, row.names = FALSE
-# )
+write.table(repa_data_20231109,
+    file = "data/repa_data_20231109.csv", sep = ",",
+    col.names = TRUE, row.names = FALSE
+)
 
 print(summary(glm_repa))
 
-nre_data <- nre_data[-nre_idx, ]
-re_data <- re_data[-re_idx, ]
-nre_test_idx <- sample(nrow(nre_data), 1000)
-re_test_idx <- sample(nrow(re_data), 1000)
+# nre_data <- nre_data[-nre_idx, ]
+# re_data <- re_data[-re_idx, ]
+# nre_test_idx <- sample(nrow(nre_data), 1000)
+# re_test_idx <- sample(nrow(re_data), 1000)
 
-test_data <- rbind(nre_data[nre_test_idx, ], re_data[re_test_idx, ])
+# test_data <- rbind(nre_data[nre_test_idx, ], re_data[re_test_idx, ])
 
-repa_predict <- predict(glm_repa, newdata = test_data, type = "response")
+# repa_predict <- predict(glm_repa, newdata = test_data, type = "response")
 
-predictions <- ifelse(repa_predict > 0.4, "Yes", "No")
-print(table(real = test_data$is_retracted, predict = predictions))
+# predictions <- ifelse(repa_predict > 0.4, "Yes", "No")
+# print(table(real = test_data$is_retracted, predict = predictions))
 
-roc <- data.frame(pro = repa_predict, class = test_data$is_retracted)
+# roc <- data.frame(pro = repa_predict, class = test_data$is_retracted)
 
-write.table(roc,
-    file = "data/roc.csv", sep = ",",
-    col.names = TRUE, row.names = FALSE
-)
+# write.table(roc,
+#     file = "data/roc.csv", sep = ",",
+#     col.names = TRUE, row.names = FALSE
+# )
