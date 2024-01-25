@@ -11,6 +11,16 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Jan 25th, 2023
+
+Member: Junital
+
+Past: 今天完善了论文，做了一下随机森林的结果，召回率99%，精确度56%，F1为0.71%。
+
+逻辑斯蒂回归结果：
+
+![逻辑斯蒂](./fig/Logistic_regression_precision_recall.png)
+
 ## Oct 23rd, 2023
 
 Member: Junital
