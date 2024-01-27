@@ -11,11 +11,17 @@
 - [ ] 相关性验证
 <progress id="file3" max="100" value="0">0%</progress>
 
+## Jan 26th, 2023
+
+Member: Junital
+
+Past: AdaBoosting召回率99.7%，精确度53.2%，F1为69.38%。
+
 ## Jan 25th, 2023
 
 Member: Junital
 
-Past: 今天完善了论文，做了一下随机森林的结果，召回率99%，精确度56%，F1为0.71%。
+Past: 今天完善了论文，做了一下随机森林的结果，召回率99%，精确度56%，F1为71%。
 
 逻辑斯蒂回归结果：
 
